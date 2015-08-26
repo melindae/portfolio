@@ -1,0 +1,231 @@
+body {
+  background-color: #5B5252;
+  background-image: url("/images/fabric_of_squares_gray.png");
+  text-align: center;
+  font-family: "Open Sans", Geneva, sans-serif;
+  font-size: 100%; }
+
+h1 {
+  font-size: 3.5em;
+  /* 48 / 16 */ }
+
+h2 {
+  font-size: 2.75em;
+  /* 36 / 16 */ }
+
+h3 {
+  font-size: 2em;
+  /* 24 / 16 */ }
+
+h4 {
+  font-size: 1.3125em;
+  /* 21 / 16 */ }
+
+h5 {
+  font-size: 1.125em;
+  /* 18 / 16 */ }
+
+h6 {
+  font-size: 1em;
+  /* 16 / 16 */ }
+
+p {
+  font-size: 1em;
+  /* 16 / 16 */ }
+
+/* header */
+.header {
+  background-image: url("/images/fabric_of_squares_gray.png");
+  border-bottom: solid 8px #c0392b;
+  margin: 18px 0 18px 0; }
+
+.header p {
+  color: #DCDBD6;
+  /*	text-shadow: 0px 0px 2px #F5F3EE;*/
+  text-decoration: none;
+  font-family: "Fredericka the Great";
+  font-size: 5em;
+  margin: -20px 0 0 0; }
+
+.titleFill {
+  color: #9E2333;
+  text-shadow: 0px 0px 1px #9E2333; }
+
+.titleFill:hover {
+  text-decoration: none;
+  color: #e74c3c;
+  text-shadow: 0px 0px 3px #e74c3c; }
+
+/* menu */
+.menu {
+  font-size: 3em;
+  background-image: url("/images/fabric_of_squares_graydark.png");
+  width: 100%;
+  text-align: right;
+  font-weight: bold; }
+
+.menu p {
+  color: white;
+  height: 35px;
+  line-height: 60px; }
+
+.btn {
+  margin: 1% 2%;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: bold; }
+
+.menuOne {
+  background-image: linear-gradient(to bottom, #e74c3c 0, #c0392b 100%);
+  background-repeat: repeat-x;
+  border-color: #AD3327; }
+
+.menuOne:hover {
+  background-image: none;
+  background-color: #e74c3c; }
+
+.menuTwo {
+  background-image: linear-gradient(to bottom, #e67e22 0, #d35400 100%);
+  background-repeat: repeat-x;
+  border-color: #BE4C00; }
+
+.menuTwo:hover {
+  background-image: none;
+  background-color: #e67e22; }
+
+.menuThree {
+  background-image: linear-gradient(to bottom, #f1c40f 0, #f39c12 100%);
+  background-repeat: repeat-x;
+  border-color: #DB8C10; }
+
+.menuThree:hover {
+  background-image: none;
+  background-color: #f1c40f; }
+
+.menuFour {
+  background-image: linear-gradient(to bottom, #1abc9c 0, #16a085 100%);
+  background-repeat: repeat-x;
+  border-color: #149078; }
+
+.menuFour:hover {
+  background-image: none;
+  background-color: #1abc9c; }
+
+.menuFive {
+  background-image: linear-gradient(to bottom, #3498db 0, #2980b9 100%);
+  background-repeat: repeat-x;
+  border-color: #2573A6; }
+
+.menuFive:hover {
+  background-image: none;
+  background-color: #3498db; }
+
+/* 'things i've made' section */
+.madeBox {
+  background-image: url("/images/fabric_of_squares_graydark.png");
+  color: white;
+  padding: 1% 0 5% 0; }
+
+.madeLeader {
+  color: #c0392b;
+  font-weight: bold;
+  background-image: url("/images/fabric_of_squares_gray.png");
+  padding: 1% 0;
+  border-bottom: solid 8px #c0392b;
+  text-decoration: none; }
+
+.madeTitle {
+  font-weight: bold;
+  margin-bottom: 2%; }
+
+.titleTwo {
+  padding-top: 2%;
+  border-top: solid 2px white; }
+
+.madeBox img {
+  width: 70%;
+  margin-right: -30%; }
+
+.madeDescription {
+  font-size: 3em;
+  text-align: left;
+  margin-top: 2%; }
+
+.madeLink {
+  color: #f1c40f;
+  text-decoration: none;
+  font-size: 2.5em;
+  margin-top: 2%; }
+
+.madeLink a {
+  color: #f1c40f; }
+
+.beenBox {
+  background-image: url("/images/fabric_of_squares_graydark.png");
+  color: white;
+  padding: 1% 0 5% 0; }
+
+.beenLeader {
+  color: #d35400;
+  font-weight: bold;
+  background-image: url("/images/fabric_of_squares_gray.png");
+  padding: 1% 0;
+  border-bottom: solid 8px #d35400;
+  text-decoration: none; }
+
+.learnedBox {
+  background-image: url("/images/fabric_of_squares_graydark.png");
+  color: white;
+  padding: 1% 0 5% 0; }
+
+.learnedLeader {
+  color: #f39c12;
+  font-weight: bold;
+  background-image: url("/images/fabric_of_squares_gray.png");
+  padding: 1% 0;
+  border-bottom: solid 8px #f39c12;
+  text-decoration: none; }
+
+.doneBox {
+  background-image: url("/images/fabric_of_squares_graydark.png");
+  color: white;
+  padding: 1% 0 5% 0; }
+
+.doneLeader {
+  color: #16a085;
+  font-weight: bold;
+  background-image: url("/images/fabric_of_squares_gray.png");
+  padding: 1% 0;
+  border-bottom: solid 8px #16a085;
+  text-decoration: none; }
+
+.blogBox {
+  background-image: url("/images/fabric_of_squares_graydark.png");
+  color: white;
+  padding: 1% 0 5% 0; }
+
+.blogLeader {
+  color: #2980b9;
+  font-weight: bold;
+  background-image: url("/images/fabric_of_squares_gray.png");
+  padding: 1% 0;
+  border-bottom: solid 8px #2980b9;
+  text-decoration: none; }
+
+/*
+.menuFive {
+	background-image: -webkit-linear-gradient(top,#9b59b6 0,#8e44ad 100%);
+    background-image: -o-linear-gradient(top,#9b59b6 0,#8e44ad 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#9b59b6),to(#8e44ad));
+    background-image: linear-gradient(to bottom,#9b59b6 0,#8e44ad 100%);
+	background-repeat: repeat-x;
+    border-color: #803D9C;
+}
+.menuFive:hover {
+	background-image: none;
+	background-color: #9b59b6;
+}
+
+*/
