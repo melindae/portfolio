@@ -44,8 +44,8 @@ p {
   /*	text-shadow: 0px 0px 2px #F5F3EE;*/
   text-decoration: none;
   font-family: "Fredericka the Great";
-  font-size: 5em;
-  margin: -20px 0 0 0; }
+  font-size: 6em;
+  margin: -30px 0 0 0; }
 
 .titleFill {
   color: #9E2333;
@@ -54,7 +54,22 @@ p {
 .titleFill:hover {
   text-decoration: none;
   color: #e74c3c;
-  text-shadow: 0px 0px 3px #e74c3c; }
+  text-shadow: 0px 0px 1px #9E2333; }
+
+.colorOne:hover {
+  color: #F1948A; }
+
+.colorTwo:hover {
+  color: #F0B27A; }
+
+.colorThree:hover {
+  color: #F7DC6F; }
+
+.colorFour:hover {
+  color: #76D7C4; }
+
+.colorFive:hover {
+  color: #85C1E9; }
 
 /* menu */
 .menu {
@@ -161,10 +176,12 @@ p {
 .madeLink a {
   color: #f1c40f; }
 
+/* 'things i've been' section */
 .beenBox {
   background-image: url("/images/fabric_of_squares_graydark.png");
   color: white;
-  padding: 1% 0 5% 0; }
+  padding: 2% 0 2% 0;
+  font-size: 2em; }
 
 .beenLeader {
   color: #d35400;
@@ -174,10 +191,12 @@ p {
   border-bottom: solid 8px #d35400;
   text-decoration: none; }
 
+/* 'things i've learned' section */
 .learnedBox {
   background-image: url("/images/fabric_of_squares_graydark.png");
   color: white;
-  padding: 1% 0 5% 0; }
+  padding: 2% 0 2% 0;
+  font-size: 2em; }
 
 .learnedLeader {
   color: #f39c12;
@@ -187,10 +206,12 @@ p {
   border-bottom: solid 8px #f39c12;
   text-decoration: none; }
 
+/* 'things i've done' section */
 .doneBox {
   background-image: url("/images/fabric_of_squares_graydark.png");
   color: white;
-  padding: 1% 0 5% 0; }
+  padding: 2% 0 2% 0;
+  font-size: 2em; }
 
 .doneLeader {
   color: #16a085;
@@ -200,10 +221,12 @@ p {
   border-bottom: solid 8px #16a085;
   text-decoration: none; }
 
+/* 'blog' section */
 .blogBox {
   background-image: url("/images/fabric_of_squares_graydark.png");
   color: white;
-  padding: 1% 0 5% 0; }
+  padding: 2% 0 2% 0;
+  font-size: 2em; }
 
 .blogLeader {
   color: #2980b9;
