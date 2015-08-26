@@ -43,18 +43,19 @@ p {
   color: #DCDBD6;
   /*	text-shadow: 0px 0px 2px #F5F3EE;*/
   text-decoration: none;
-  font-family: "Fredericka the Great";
+  font-family: 'Rokkitt', serif;
   font-size: 6em;
   margin: -30px 0 0 0; }
 
 .titleFill {
-  color: #9E2333;
-  text-shadow: 0px 0px 1px #9E2333; }
+  color: #C0392B;
+  text-shadow: 2px 2px 2px gray;
+  font-family: 'Rokkitt', serif; }
 
 .titleFill:hover {
   text-decoration: none;
   color: #e74c3c;
-  text-shadow: 0px 0px 1px #9E2333; }
+  text-shadow: 2px 2px 2px gray; }
 
 .colorOne:hover {
   color: #F1948A; }
@@ -73,11 +74,10 @@ p {
 
 /* menu */
 .menu {
-  font-size: 3em;
+  font-size: 2.5em;
   background-image: url("/images/fabric_of_squares_graydark.png");
   width: 100%;
-  text-align: right;
-  font-weight: bold; }
+  text-align: right; }
 
 .menu p {
   color: white;
@@ -148,7 +148,9 @@ p {
   background-image: url("/images/fabric_of_squares_gray.png");
   padding: 1% 0;
   border-bottom: solid 8px #c0392b;
-  text-decoration: none; }
+  text-decoration: none;
+  text-shadow: 1px 1px 1px gray;
+  font-family: 'Rokkitt', serif; }
 
 .madeTitle {
   font-weight: bold;
@@ -177,64 +179,84 @@ p {
   color: #f1c40f; }
 
 /* 'things i've been' section */
-.beenBox {
-  background-image: url("/images/fabric_of_squares_graydark.png");
-  color: white;
-  padding: 2% 0 2% 0;
-  font-size: 2em; }
-
 .beenLeader {
   color: #d35400;
   font-weight: bold;
   background-image: url("/images/fabric_of_squares_gray.png");
   padding: 1% 0;
   border-bottom: solid 8px #d35400;
-  text-decoration: none; }
+  text-decoration: none;
+  text-shadow: 1px 1px 1px gray;
+  font-family: 'Rokkitt', serif; }
 
-/* 'things i've learned' section */
-.learnedBox {
+.beenBox {
   background-image: url("/images/fabric_of_squares_graydark.png");
   color: white;
   padding: 2% 0 2% 0;
   font-size: 2em; }
 
+.fa-check-square-o {
+  color: gray; }
+
+/* 'things i've learned' section */
 .learnedLeader {
   color: #f39c12;
   font-weight: bold;
   background-image: url("/images/fabric_of_squares_gray.png");
   padding: 1% 0;
   border-bottom: solid 8px #f39c12;
-  text-decoration: none; }
+  text-decoration: none;
+  text-shadow: 1px 1px 1px gray;
+  font-family: 'Rokkitt', serif; }
+
+.learnedBox {
+  background-image: url("/images/fabric_of_squares_graydark.png");
+  color: white;
+  padding: 2% 0 2% 0;
+  font-size: 2em; }
+
+.fa-graduation-cap {
+  color: gray; }
 
 /* 'things i've done' section */
+.doneLeader {
+  color: #16a085 !important;
+  font-weight: bold;
+  background-image: url("/images/fabric_of_squares_gray.png");
+  padding: 1% 0;
+  border-bottom: solid 8px #16a085;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px gray;
+  font-family: 'Rokkitt', serif; }
+
 .doneBox {
   background-image: url("/images/fabric_of_squares_graydark.png");
   color: white;
   padding: 2% 0 2% 0;
   font-size: 2em; }
 
-.doneLeader {
-  color: #16a085;
-  font-weight: bold;
-  background-image: url("/images/fabric_of_squares_gray.png");
-  padding: 1% 0;
-  border-bottom: solid 8px #16a085;
-  text-decoration: none; }
+.fa-bicycle {
+  color: gray; }
 
 /* 'blog' section */
-.blogBox {
-  background-image: url("/images/fabric_of_squares_graydark.png");
-  color: white;
-  padding: 2% 0 2% 0;
-  font-size: 2em; }
-
 .blogLeader {
   color: #2980b9;
   font-weight: bold;
   background-image: url("/images/fabric_of_squares_gray.png");
   padding: 1% 0;
   border-bottom: solid 8px #2980b9;
-  text-decoration: none; }
+  text-decoration: none;
+  text-shadow: 1px 1px 1px gray;
+  font-family: 'Rokkitt', serif; }
+
+.blogBox {
+  background-image: url("/images/fabric_of_squares_graydark.png");
+  color: white;
+  padding: 2% 0 2% 0;
+  font-size: 2em; }
+
+.fa-pencil {
+  color: gray; }
 
 /* footer and links */
 .footer {
@@ -248,35 +270,40 @@ p {
   padding: 0 2%; }
 
 .footOne {
-  color: #c0392b; }
+  color: #c0392b;
+  text-shadow: 1px 1px 1px gray; }
 
 .footOne:hover {
   text-decoration: none;
   color: #e74c3c; }
 
 .footTwo {
-  color: #d35400; }
+  color: #d35400;
+  text-shadow: 1px 1px 1px gray; }
 
 .footTwo:hover {
   text-decoration: none;
   color: #e67e22; }
 
 .footThree {
-  color: #f39c12; }
+  color: #f39c12;
+  text-shadow: 1px 1px 1px gray; }
 
 .footThree:hover {
   text-decoration: none;
   color: #e67e22; }
 
 .footFour {
-  color: #16a085; }
+  color: #16a085;
+  text-shadow: 1px 1px 1px gray; }
 
 .footFour:hover {
   text-decoration: none;
   color: #1abc9c; }
 
 .footFive {
-  color: #2980b9; }
+  color: #2980b9;
+  text-shadow: 1px 1px 1px gray; }
 
 .footFive:hover {
   text-decoration: none;
