@@ -236,6 +236,52 @@ p {
   border-bottom: solid 8px #2980b9;
   text-decoration: none; }
 
+/* footer and links */
+.footer {
+  font-size: 3em;
+  background-image: url("/images/fabric_of_squares_gray.png");
+  text-decoration: none;
+  padding: 2% 0 2% 0;
+  font-size: 4em; }
+
+.footer a {
+  padding: 0 2%; }
+
+.footOne {
+  color: #c0392b; }
+
+.footOne:hover {
+  text-decoration: none;
+  color: #e74c3c; }
+
+.footTwo {
+  color: #d35400; }
+
+.footTwo:hover {
+  text-decoration: none;
+  color: #e67e22; }
+
+.footThree {
+  color: #f39c12; }
+
+.footThree:hover {
+  text-decoration: none;
+  color: #e67e22; }
+
+.footFour {
+  color: #16a085; }
+
+.footFour:hover {
+  text-decoration: none;
+  color: #1abc9c; }
+
+.footFive {
+  color: #2980b9; }
+
+.footFive:hover {
+  text-decoration: none;
+  color: #3498db; }
+
 /*
 .menuFive {
 	background-image: -webkit-linear-gradient(top,#9b59b6 0,#8e44ad 100%);
