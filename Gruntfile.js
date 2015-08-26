@@ -7,6 +7,12 @@ module.exports = function(grunt) {
     grunt.registerTask( 'run', [ 'hapi', 'watch' ]);
 
     grunt.initConfig({
+        'gh-pages': {
+            options: {
+                base: 'dist'
+            },
+            src: ['**']
+        },
         browserify: {
             dist: {
                 files: {
@@ -99,4 +105,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-hapi');
     grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-autoprefixer');
+    grunt.loadNpmTasks('grunt-gh-pages');
 };
