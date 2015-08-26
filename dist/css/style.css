@@ -39,6 +39,9 @@ p {
   border-bottom: solid 8px #c0392b;
   margin: 18px 0 18px 0; }
 
+.headerMobile {
+  display: none; }
+
 .header p {
   color: #DCDBD6;
   /*	text-shadow: 0px 0px 2px #F5F3EE;*/
@@ -85,7 +88,7 @@ p {
   line-height: 60px; }
 
 .btn {
-  margin: 1% 2%;
+  margin: 1% 1%;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
   color: #fff;
@@ -324,3 +327,18 @@ p {
 }
 
 */
+@media screen and (max-width: 480px) {
+  .header {
+    display: none; }
+  .headerMobile {
+    display: block;
+    background-image: url("/images/fabric_of_squares_gray.png");
+    border-bottom: solid 8px #c0392b;
+    margin: 18px 0 18px 0; }
+  .headerMobile p {
+    color: #DCDBD6;
+    /*	text-shadow: 0px 0px 2px #F5F3EE;*/
+    text-decoration: none;
+    font-family: 'Rokkitt', serif;
+    font-size: 6em;
+    margin: -30px 0 0 0; } }
