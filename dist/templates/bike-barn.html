@@ -3,29 +3,38 @@
 	<div class="outerPage">
 		<div class="innerPage"> 
 			<h1 class="projectTitle">Bike Barn</h1>
-			<p>In commercial and private motorcycle garages everywhere there are scruffy logbooks filled with notes on maintenance and repairs. In a filing cabinet or a static spreadsheet somewhere else, there’s a list of details of the vehicles themselves, unconnected to their histories. Bike-Barn is designed to help motorcycle training facilities, as well as enthusiasts with a full garage, connect and share that data. The user is able to see the current status of their fleet at their desk or on their tablet, and can view and modify to it while standing next to a motorcycle in the garage.</p>
+	
+			<p>As a motorcycle safety instructor I see our fleet always in a state of flux. Communication between the garage and the office can be unpredictable.  It seemed that a tool to store all the vitals of a bike existed in a simple excel spreadsheet. But that spreadsheet had no connection to the life of the bike as chronicled in notebooks in the garage or word of mouth and memory. So I set out to bridge the gap.</p>
 
-			<p>As a motorcycle safety instructor I see our fleet always in a state of flux. Communication between the garage and the office can be unpredictable.  It seemed that a tool to store all the vitals of a bike existed in a simple excel spreadsheet. But that spreadsheet had no connection to the life of the bike as chronicled in notebooks or word of mouth and memory. So I set out to bridge the gap.</p>
+			<p>Bike Barn is designed to help motorcycle training facilities, and enthusiasts with a full garage, connect and share all the data on their machines, whether sitting at their desk or standing next to a motorcycle in their garage. It lets anyone check the status of any bike in the fleet at any time.</p>
+		
 
-			<p>I wanted the person in the office to be able to see how many bikes were ready at a glance. 
-			-Be able to add new ones and archive old ones. 
-			-Sortable lists were important so they could make certain that enough variety existed to have a rich learning experience for the students. 
-			-They should be able to see the maintenance history on each motorcycle as well as change the status of a bike with a click. </p>
-
-			<p>The person on the ground in the garage needed to add notes to the logs and flag bikes as on or offline using their phone or tablet. </p>
-
-			<p>And it all needed to live in an offsite, secure, synchronized database.</p>
-
-			<p>I decided to use Firebase for the database. Then I learned what data was essential and where in the workflow it would need to be accessed. I mapped out different views according to needs and planned the framework of the database and site to support those needs.</p>
-
-			<ul>I created the:
-				<li><img src="/images/bb-longlist-400.png">  <p class="imageCaptionPage">Long list<br> - All the information on every bike in a sortable list. From color to VIN.</p></li>
-				<li><img src="/images/bb-longlist-400.png">Short list - Two abbreviated lists with only essential data split bike readiness.</li>
-				<li>New bike entry - A validated form for entering all pertinant data on a new machine.</li>
-				<li>Log - The full maintenance log can be called up by selecting any bike on any list.</li>
+			<ul class="imgList">Bike Barn has:
+				<li class="listRow">
+					<img class="imgLeft" src="/images/bb-long-500.png">	<p class="imgCaption">A page that has all the information on every bike in a sortable list. From color to VIN.</p>
+				</li>
+				<li>
+					<p class="imgCaption">Two abbreviated lists with only essential data, one for ready bikes, one for offline bikes.</p><img class="imgRight" src="/images/bb-short-500.png">
+				</li>
+				<li class="listRow">
+					<img class="imgLeft" src="/images/bb-new-500.png"><p class="imgCaption">A validated form for entering all pertinent data on a new machine.</p>
+				</li>
+				<li>
+					<p class="imgCaption">A maintenance log that can be called up by selecting any bike on any list.</p><img class="imgRight" src="/images/bb-log-500.png"></li>
+				<li class="listRow">
+					<img class="imgLeft" src="/images/bb-stats-500.png"><p class="imgCaption">A quick overview of bike readiness, year and type.</p>
+				</li>
+				<li>
+					<p class="imgCaption">Mobile versions of pages that would be useful in the garage</p><img class="imgRight" src="/images/bb-mobile.png">
+				</li>
 			</ul>
 
-			<p>Anyone can see the complete history of any machine from anywhere, add to it and mark a bike ready or offline with a touch.</p>
+			<p>Lists are sortable for easy access to desired data. The complete maintenance history on each motorcycle can be seen from anywhere. And any bike can be marked as ready or offline with a touch.</p>
+
+
+			<p>All data is stored in an offsite, secure, synchronized database.</p>
+
+
 
 			<p>Bike-barn is expandable, with room for more data fields if needed. And there’s a framework pre-built for a parts database. It’s primed for expansion.</p>
 		</div>
