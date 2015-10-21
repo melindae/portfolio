@@ -71,36 +71,41 @@ p {
 	color: #85C1E9;
 }
 
-
 	/* menu */
 
 .menu {
 	font-size: 3.0em;
 	background-image: url("/images/fabric_of_squares_graydark.png");
 	width: 100%;
-	text-align: right;	
+	text-align: right;
 }
 .menu p {
 	color: white;
-	height: 35px;
-	line-height: 60px;
 	text-align: center;
 	font-weight: bold;
 	margin-top: .3%;
+	text-shadow: 1px 1px 2px black;
 }
 .navButton {
 	margin: 1.5% 0;
+  text-align: center
 }
 .introSmall {
 	display: none;
 }
-
+.btn-default {
+  min-width: 100px;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
 .btn {
-	text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+	text-shadow: 1px 1px 0 rgba(0,0,0,.4);
     -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075);
-    box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075);
 	color: #fff;
 	font-weight: bold;
+  text-align: center;
 }
 .menuOne {
 	background-image: -webkit-linear-gradient(top,#e74c3c 0,#c0392b 100%);
@@ -108,7 +113,7 @@ p {
     background-image: -webkit-gradient(linear,left top,left bottom,from(#e74c3c),to(#c0392b));
     background-image: linear-gradient(to bottom,#e74c3c 0,#c0392b 100%);
 	background-repeat: repeat-x;
-    border-color: #AD3327;
+  border-color: #AD3327;
 }
 .menuOne:hover {
 	background-image: none;
@@ -120,7 +125,7 @@ p {
     background-image: -webkit-gradient(linear,left top,left bottom,from(#e67e22),to(#d35400));
     background-image: linear-gradient(to bottom,#e67e22 0,#d35400 100%);
 	background-repeat: repeat-x;
-    border-color: #BE4C00;
+  border-color: #BE4C00;
 }
 .menuTwo:hover {
 	background-image: none;
@@ -132,7 +137,7 @@ p {
     background-image: -webkit-gradient(linear,left top,left bottom,from(#f1c40f),to(#f39c12));
     background-image: linear-gradient(to bottom,#f1c40f 0,#f39c12 100%);
 	background-repeat: repeat-x;
-    border-color: #DB8C10;
+  border-color: #DB8C10;
 }
 .menuThree:hover {
 	background-image: none;
@@ -144,7 +149,7 @@ p {
     background-image: -webkit-gradient(linear,left top,left bottom,from(#1abc9c),to(#16a085));
     background-image: linear-gradient(to bottom,#1abc9c 0,#16a085 100%);
 	background-repeat: repeat-x;
-    border-color: #149078;
+  border-color: #149078;
 }
 .menuFour:hover {
 	background-image: none;
@@ -156,13 +161,12 @@ p {
     background-image: -webkit-gradient(linear,left top,left bottom,from(#3498db),to(#2980b9));
     background-image: linear-gradient(to bottom,#3498db 0,#2980b9 100%);
 	background-repeat: repeat-x;
-    border-color: #2573A6;
+  border-color: #2573A6;
 }
 .menuFive:hover {
 	background-image: none;
 	background-color: #3498db;
 }
-
 
 /* 'things i've made' section */
 .madeLeader{
@@ -172,13 +176,14 @@ p {
 	padding: 1% 0;
 	border-bottom: solid 8px #c0392b;
 	text-decoration: none;
-	text-shadow: 1px 1px 1px gray;
+	text-shadow: 1px 1px 1px #15181C;
 	font-family: 'Rokkitt', serif;
 }
 .madeBox {
 	background-image: url("/images/fabric_of_squares_graydark.png");
 	color: white;
 	padding: 1% 0 5% 0;
+	text-shadow: 2px 2px 6px #15181C;
 }
 .fa-cog {
 	color:gray;
@@ -192,11 +197,12 @@ p {
 	border-top: solid 2px white;
 }
 .madeBox img {
-	width: 70%;
-	margin-right: -30%;
+	width: 80%;
+	margin-right: -25%;
+	box-shadow: 2px 2px 6px #15181C;
 }
 .madeDescription {
-	font-size: 3em;
+	font-size: 2.5em;
 	text-align: left;
 	margin-top: 2%;
 }
@@ -209,7 +215,6 @@ p {
 .madeLink a {
 	color: #f1c40f;
 }
-
 .bb-swap:hover {
 	cursor: pointer;
 }
@@ -226,7 +231,7 @@ p {
 	padding: 1% 0;
 	border-bottom: solid 8px #d35400;
 	text-decoration: none;
-	text-shadow: 1px 1px 1px gray;
+	text-shadow: 1px 1px 1px #15181C;
 	font-family: 'Rokkitt', serif;
 }
 .beenBox {
@@ -234,6 +239,7 @@ p {
 	color: white;
 	padding: 2% 0 2% 0;
 	font-size: 2em;
+	text-shadow: 2px 2px 6px #15181C;
 }
 .fa-check-square-o {
 	color:gray;
@@ -248,7 +254,7 @@ p {
 	padding: 1% 0;
 	border-bottom: solid 8px #f39c12;
 	text-decoration: none;
-	text-shadow: 1px 1px 1px gray;
+	text-shadow: 1px 1px 1px #15181C;
 	font-family: 'Rokkitt', serif;
 }
 .learnedBox {
@@ -256,6 +262,7 @@ p {
 	color: white;
 	padding: 2% 0 2% 0;
 	font-size: 2em;
+	text-shadow: 2px 2px 6px #15181C;
 }
 .fa-graduation-cap {
 	color:gray;
@@ -270,7 +277,7 @@ p {
 	padding: 1% 0;
 	border-bottom: solid 8px #16a085;
 	text-decoration: none;
-	text-shadow: 1px 1px 1px gray;
+	text-shadow: 1px 1px 1px #15181C;
 	font-family: 'Rokkitt', serif;
 }
 .doneBox {
@@ -278,6 +285,7 @@ p {
 	color: white;
 	padding: 2% 0 2% 0;
 	font-size: 2em;
+	text-shadow: 2px 2px 6px #15181C;
 }
 .fa-bicycle {
 	color:gray;
@@ -292,7 +300,7 @@ p {
 	padding: 1% 0;
 	border-bottom: solid 8px #2980b9;
 	text-decoration: none;
-	text-shadow: 1px 1px 1px gray;
+	text-shadow: 1px 1px 1px #15181C;
 	font-family: 'Rokkitt', serif;
 }
 .blogBox {
@@ -300,12 +308,11 @@ p {
 	color: white;
 	padding: 2% 0 2% 0;
 	font-size: 2em;
+	text-shadow: 2px 2px 6px #15181C;
 }
 .fa-pencil {
 	color:gray;
 }
-
-
 
 	/* footer and links */
 
@@ -363,7 +370,7 @@ p {
 
 /* project pages main template - this is for the first project - variations follow*/
 .projectPage {
-	background-image: url("/images/fabric_of_squares_graydark.png"); 
+	background-image: url("/images/fabric_of_squares_graydark.png");
 	padding: 3% 0;
 }
 .outerPage {
@@ -450,12 +457,10 @@ p {
 	}
 	.introSmall {
 		display: block;
-		text-align: center;	
-	}
-	.introSmall:last-of-type {
+		text-align: center;
 		margin-bottom: 1em;
+		font-size: 0.7em;
 	}
-
 
 }
 @media screen and (max-width: 480px) {
@@ -474,7 +479,25 @@ p {
 	/*	text-shadow: 0px 0px 2px #F5F3EE;*/
 		text-decoration: none;
 		font-family: 'Rokkitt', serif;
-		font-size: 6em;
+		font-size: 5em;
 		margin: -30px 0 0 0;
 	}
+  .madeTitle {
+  	margin-bottom: 5%;
+  }
+  .titleTwo {
+  	padding-top: 5%;
+  }
+  .madeBox img {
+  	width: 80%;
+  	margin: auto;
+  }
+  .madeDescription {
+  	font-size: 2em;
+  	margin-top: 5%;
+  }
+  .madeLink {
+  	font-size: 2em;
+  	margin-top: 5%;
+  }
 }
