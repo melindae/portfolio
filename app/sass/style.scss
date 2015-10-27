@@ -28,6 +28,7 @@ p {
     font-size: 1em; /* 16 / 16 */
 }
 
+
  	/* header */
 .header {
 	background-image: url("/images/fabric_of_squares_gray.png");
@@ -394,6 +395,12 @@ p {
 .innerPage ul {
 	padding: 2% 2%;
 }
+.challenges h5 {
+	font-size: 1em;
+	font-weight: bold;
+	//color: red;
+	margin-bottom: 0.1%;
+}
 .projectTitle {
 	text-shadow: 2px 2px 2px gray;
 	font-family: 'Rokkitt', serif;
@@ -432,7 +439,16 @@ p {
 	color: #d35400;
 }
 
-
+	/* resume */
+.rotate {
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	font-size: 36px;
+	float:left;
+}
 /*
 .menuFive {
 	background-image: -webkit-linear-gradient(top,#9b59b6 0,#8e44ad 100%);
