@@ -303,7 +303,8 @@ p {
   font-size: 4em; }
 
 .footer a {
-  padding: 0 2%; }
+  padding: 0 2%;
+  text-decoration: none; }
 
 .footOne {
   color: #c0392b;
