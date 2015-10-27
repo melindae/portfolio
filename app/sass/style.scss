@@ -189,6 +189,11 @@ p {
 .fa-cog {
 	color:gray;
 }
+.returnHome {
+	font-size: 1.2em;
+	text-shadow: 1px 1px 1px #15181C;
+	font-family: 'Rokkitt', serif;
+}
 .madeTitle {
 	font-weight: bold;
 	margin-bottom: 2%;
@@ -316,7 +321,6 @@ p {
 }
 
 	/* footer and links */
-
 .footer {
 	font-size: 3em;
 	background-image: url("/images/fabric_of_squares_gray.png");
@@ -372,7 +376,7 @@ p {
 /* project pages main template - this is for the first project - variations follow*/
 .projectPage {
 	background-image: url("/images/fabric_of_squares_graydark.png");
-	padding: 3% 0;
+	padding: 1% 0;
 }
 .outerPage {
 	background-image: url("/images/fabric_of_squares_gray.png");
@@ -440,15 +444,58 @@ p {
 }
 
 	/* resume */
-.rotate {
-	-webkit-transform: rotate(-90deg);
-	-moz-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	-o-transform: rotate(-90deg);
-	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-	font-size: 36px;
-	float:left;
+.resume {
+	width: 1000px;
+	font-family: "Gill Sans MT", serif;
+	font-size: 2em;
+	margin: auto;
+	margin-top: 30px;
 }
+.resButton {
+	text-decoration: none;
+	color: white;
+}
+.resText {
+	color: black;
+	font-size: 18px;
+	text-align: left;
+}
+.resText ul{
+	margin-left: 115px;
+}
+.resTable {
+	width: 90%;
+	margin-left: 30px;
+}
+.resTable td {
+	width: 30%;
+}
+.resName {
+	text-align: left;
+	font-size: 28pt;
+}
+.resTitle {
+	text-align: right;
+	font-size: 28pt;
+	color: #C00000;
+}
+.resLinks {
+	background-color: #C00000;
+	text-decoration: none;
+}
+.resLinks a{
+	color: white;
+}
+.resSection {
+	text-align: left;
+	color: #C00000;
+	padding: 15px 0 5px 0;
+}
+.resDate {
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+
 /*
 .menuFive {
 	background-image: -webkit-linear-gradient(top,#9b59b6 0,#8e44ad 100%);
