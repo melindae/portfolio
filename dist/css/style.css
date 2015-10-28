@@ -418,7 +418,8 @@ p {
   font-family: "Gill Sans MT", serif;
   font-size: 2em;
   margin: auto;
-  margin-top: 30px; }
+  margin-top: 30px;
+  margin-bottom: 30px; }
 
 .resButton {
   text-decoration: none;
@@ -463,6 +464,9 @@ p {
 .resDate {
   font-weight: bold;
   margin-bottom: 2px; }
+
+.resFooter {
+  border-top: solid 8px #E74C3C; }
 
 /*
 .menuFive {
