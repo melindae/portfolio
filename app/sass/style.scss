@@ -447,7 +447,7 @@ p {
 	/* resume */
 .resume {
 	width: 1000px;
-	font-family: "Gill Sans MT", serif;
+	font-family: "Calibri", sans-serif;
 	font-size: 2em;
 	margin: auto;
 	margin-top: 30px;
@@ -457,50 +457,70 @@ p {
 	text-decoration: none;
 	color: white;
 }
+.resName {
+	text-align: left;
+	font-size: 30pt;
+}
+.resTitle {
+	text-align: right;
+	font-size: 30pt;
+	color: #C00000;
+}
+.resLinks {
+	text-decoration: none;
+	border: solid 1px #000000;
+}
+.resLinks a{
+	color: #000000;
+}
+.resSection {
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+	text-decoration: underline;
+	color: #C00000;
+	padding: 15px 0 5px 0;
+}
 .resText {
 	color: black;
-	font-size: 18px;
+	font-size: 20px;
 	text-align: left;
 }
-.resText ul{
-	margin-left: 115px;
+.resText li {
+	margin-bottom: 8px;
 }
 .resTable {
 	width: 90%;
-	margin-left: 30px;
+	margin-left: 60px;
 }
 .resTable td {
 	width: 30%;
 }
-.resName {
-	text-align: left;
-	font-size: 28pt;
+.resEmployTable {
+	width: 90%;
+	margin: auto;
 }
-.resTitle {
+.resEmployTable td {
+	width: 30%;
+	border-bottom: solid 1px #000000;
+}
+.resEmployTable td:nth-of-type(3) {
 	text-align: right;
-	font-size: 28pt;
-	color: #C00000;
+	width: 15%;
 }
-.resLinks {
-	background-color: #C00000;
-	text-decoration: none;
+.resTableCenter {
+	text-align: center;
 }
-.resLinks a{
-	color: white;
-}
-.resSection {
-	text-align: left;
-	color: #C00000;
-	padding: 15px 0 5px 0;
-}
-.resDate {
-	font-weight: bold;
-	margin-bottom: 2px;
+.resItalic {
+	font-style: italic;
 }
 .resFooter {
 	border-top: solid 8px #E74C3C;
+	background-image: url("/images/fabric_of_squares_graydark.png");
 }
-
+.resFootIcon {
+	text-shadow: 2px 2px 2px black;
+}
 /*
 .menuFive {
 	background-image: -webkit-linear-gradient(top,#9b59b6 0,#8e44ad 100%);
